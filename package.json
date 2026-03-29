@@ -1,0 +1,31 @@
+{
+  "name": "mini-habit-tracker",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/np02cs4a240115-muskan/week4_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/np02cs4a240115-muskan/week4_project/issues"
+  },
+  "homepage": "https://github.com/np02cs4a240115-muskan/week4_project#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14",
+    "path": "^0.12.7"
+  }
+}
