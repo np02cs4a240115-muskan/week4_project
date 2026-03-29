@@ -20,7 +20,9 @@ connectDB();
 const PORT = process.env.PORT || 5000;
 
 import test from './routes/test_route.js'
+import userRoutes from './routes/userRoutes.js';
 
+app.use('/api/users', userRoutes);
 app.use('/api/test', test);
 
 // Start server only after DB connects
